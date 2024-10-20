@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Project1</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: beige;
+	color: black;
+	font-family: ;
+	text-align: center;
+}
+
+.menu li{
+	direction: inline;
+	list-style: none;
+}
+
+h1{
+	font-family: "League Spartan", sans-serif;
+	font-weight: 700;
+	color: hotpink;
+	}
+
+.header{
+	background-color: beige;
+	padding: 20px;
+	text-align: center;
+		}
+
+.topnav {
+	overflow: hidden;
+	background-color: hotpink;
+	text-align: center;
+}
+
+.topnav a {
+	float: left;
+  display: block;
+  color: #ffffff;
+font-family: "League Spartan", sans-serif;
+	font-weight: 900;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#bannerimage {
+  width: 100%;
+  background-image: url(catbanner3.5.jpg);
+  height: 550px;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: 100% 100%;
+}
+
+hr {
+	border: 3px solid hotpink;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+  border-radius: 0%;
+}
+
+.column2 {
+  float: left;
+  width: 20.00%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+form{
+		text-align: left;
+		margin: 30px;
+		margin-top: 50px;
+		padding:50px;
+		border-radius: 20px;
+	}
+
+	.container{
+		background-color: white;
+		box-shadow: 0px 0px 18px rgba(255,255,255,1);
+		margin: 4.7%;
+		margin-left: 35%;
+		margin-right: 35%;
+			}
+
+			.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+	</style>
+</head>
+
+<body>
+
+	<!-- SECTION 1: HEADER -->
+
+	<div class="header">
+	<h1>Welcome to my Meow Adoption!</h1>
+</div>
+
+<!-- SECTION 2: NAVIGATION MENU-->
+
+<div class="topnav">
+  <a href="#login-form">Log in</a>
+  <a href="#Signup-form">Sign Up</a>
+ </div>
+
+<!-- SECTION 3: BANNER -->
+<div id="bannerimage"></div>
+<hr>
+<br/>
+<p style="font-family: League Spartan, sans-serif; font-weight: 700; font-size: 30px;">5 Cats is waiting to be taken home by you!</p>
+<p style="font-family: League Spartan, sans-serif; font-weight: 500; font-size: 20px;">Adoption and healthcare fee are now 10% off!</p>
+<br/>
+<hr>
+
+<div class="row">
+  <div class="column">
+    <img src="catbeinghold.jpg" alt="catbeinghold"style="width:110%">
+  </div>
+
+  <div class="column">
+    <img src="catbeinghold2.jpg" alt="catbeinghold2" style="width:110%">
+  </div>
+
+  <div class="column">
+    <img src="catbeinghold3.jpg" alt="catbeinghold3" style="width:98.0%">
+  </div>
+</div>
+<hr />
+
+<br/>
+<!-- SECTION 4: CONTENT -->
+<div class="pic">
+<p style="font-family: League Spartan, sans-serif; font-weight: 700; font-size: 30px;">The Waiting 5 Cats</p><br/> 
+
+<div class="row">
+  <div class="column2">
+    <img src="cat1.jpg" alt="1cat"style="width:60%"><br/>
+    <p style="font-family: League Spartan, sans-serif; font-weight: 400; font-size: 20px;">Jeff</p>
+  </div>
+
+  <div class="column2">
+    <img src="cat2.jpg" alt="2cat" style="width:60%"><br/>
+    <p style="font-family: League Spartan, sans-serif; font-weight: 400; font-size: 20px;">Peanut butter</p>
+  </div>
+
+  <div class="column2">
+    <img src="cat3.jpg" alt="3cat" style="width:60%"><br/>
+    <p style="font-family: League Spartan, sans-serif; font-weight: 400; font-size: 20px;">Strawberry jam</p>
+  </div>
+
+  <div class="column2">
+    <img src="cat4.jpg" alt="4cat" style="width:60%"><br/>
+    <p style="font-family: League Spartan, sans-serif; font-weight: 400; font-size: 20px;">Chicken</p>
+  </div>
+
+  <div class="column2">
+    <img src="cat5.jpg" alt="5cat" style="width:60%"><br/>
+    <p style="font-family: League Spartan, sans-serif; font-weight: 400; font-size: 20px;">Maximus the Destroyer</p>
+  </div>
+</div>
+</div>
+<br/>
+<hr>
+
+<!-- SECTION 5: LOGIN/FOOTER -->
+
+<div class="container">
+	<form>
+
+<img src="catlogo.jpg" class="center" height="200">
+<div class="login" id="login-form">
+<h2 style="text-align: center; ">Login</h2>
+
+</div>
+<br/>
+	<label style="font-family: League Spartan, sans-serif;">Username:</label><br/>
+	<input type="text" name="Username" width="100" size="40" placeholder="Enter your Username">
+	<br/>
+	<br/>
+	<label font-family: League Spartan, sans-serif;>Password:</label><br/>
+	<input type="Password" name="Password" placeholder="Enter your password" 
+	size="40">
+	<br/>
+	<br/>
+	<input type="submit" name="Log in">
+	</form>
+
+</div>
+<!-- SECTION 6: REGS -->
+</body>
+</html>
